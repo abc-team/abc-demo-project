@@ -1,0 +1,13 @@
+{
+    "config": {
+        "log" :  {
+            "start": {
+                "messages" : ["Welcome!"]
+            }
+        }
+    },
+    "tasks": {
+        "default": ["log:start"]
+    }
+
+}
