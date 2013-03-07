@@ -1,5 +1,5 @@
 {
-  "name": "abc-test",
+  "name": "abc-demo-project",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,6 +7,5 @@
   },
   "license": "BSD",
   "dependencies": {
-    "abcenter": "~0.0.0"
   }
 }
