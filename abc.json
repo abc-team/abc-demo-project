@@ -1,13 +1,20 @@
 {
-    "config": {
+    "vars":  {
+        "title": "ABC",
+        "name": "maxbbn"
+    },
+    "configs": {
         "log" :  {
             "start": {
-                "messages" : ["Welcome!"]
+                "message" : "Welcome to {{title}}!"
+            },
+            "end": {
+                "message" : "Bye! {{name}}!"
             }
         }
     },
     "tasks": {
-        "default": ["log:start"]
+        "default": ["log:start", "log:end"]
     }
 
 }
